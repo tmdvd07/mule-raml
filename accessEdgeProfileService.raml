@@ -1,0 +1,14 @@
+#%RAML 1.0
+title: Access Edge API
+
+baseUri: /ebizservices
+
+/accessEdgeService:
+/accessEdgeProfileService:
+ /fetchUserWidgetsAndPermissions:
+  /fetchUserWidgetsAndPermissions/{attUserId}:
+        get:
+          body:
+            application/json:
+        description:
+              Fetch UserWidgets AndP ermissions
